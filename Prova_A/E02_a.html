@@ -9,11 +9,11 @@
     */
 
     //ENTRADA
-
-
+const precoVinho = Number(prompt(`informe o preço do vinho`).trim().replace(",","."))
     //PROCESSAMENTO
-
-
+    const precoTotal = precoVinho*365
+    const litros = 750*365/1000
     //SAÍDA
+    alert(`nos dois anos consumindo vinho você gastou ${precoTotal} reais e tomou ${litros} litros de vinho`)
 
 </script>

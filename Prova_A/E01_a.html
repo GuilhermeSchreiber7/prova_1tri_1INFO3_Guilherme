@@ -7,9 +7,9 @@
     */
 
     //ENTRADA
-  const tri1 = Number(prompt(`informe a média do primeiro trimestre`))
-  const tri2 = Number(prompt(`informe a média do segundo trimestre`))
-  const tri3 = Number(prompt(`informe a média do terceiro trimestre`))
+  const tri1 = Number(prompt(`informe a média do primeiro trimestre`).trim().replace(",", "."))
+  const tri2 = Number(prompt(`informe a média do segundo trimestre`).trim().replace(",", "."))
+  const tri3 = Number(prompt(`informe a média do terceiro trimestre`).trim().replace(",", "."))
     //PROCESSAMENTO
   const total = (tri1+tri2+tri3)/3
     //SAÍDA
