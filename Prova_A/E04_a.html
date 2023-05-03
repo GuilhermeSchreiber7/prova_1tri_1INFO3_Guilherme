@@ -7,11 +7,9 @@
     */
 
     //ENTRADA
-
-
+const salAtual = Number(prompt(`infome seu salário atual`).trim().replace(",","."))
     //PROCESSAMENTO
-
-
+    const inflação = Math.ceil(salAtual + (salAtual*0.053))
     //SAÍDA
-
+alert (`seu salário com a inflação será de ${inflação}`)
 </script>
